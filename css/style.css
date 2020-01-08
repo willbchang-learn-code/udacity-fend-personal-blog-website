@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+nav {
+    text-align: center;
+    overflow: scroll;
+}
+
+ul {
+    display: inline-flex;
+    white-space: nowrap;
+    padding: 0;
+    list-style: none;
+}
+
+li {
+    padding: 0 1rem;
+}
+
+a {
+    color: #1E6BB8;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #1E6BB8;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.category {
+    font-size: 0.8rem;
+}
+
+.category #brand {
+    color: orange;
+    background: url(../img/favicon-32x32.png) no-repeat left 50%;
+    background-size: 0.8rem;
+    padding-left: 1rem;
+}
