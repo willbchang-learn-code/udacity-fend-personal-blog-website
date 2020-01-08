@@ -42,3 +42,13 @@ a:hover {
     background-size: 0.8rem;
     padding-left: 1rem;
 }
+
+.directory {
+    background: #F7F7F8;
+    font-size: 0.6rem;
+    font-weight: 400;
+}
+
+.directory a {
+    color: #017A9B;
+}
