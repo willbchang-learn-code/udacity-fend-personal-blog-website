@@ -9,10 +9,17 @@ nav {
 }
 
 ul {
-    display: inline-flex;
-    white-space: nowrap;
     padding: 0;
     list-style: none;
+}
+
+h1 {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+p {
+    font-size: 0.7rem;
 }
 
 li {
@@ -20,20 +27,29 @@ li {
 }
 
 a {
-    color: #1E6BB8;
     text-decoration: none;
-}
-
-a:visited {
-    color: #1E6BB8;
 }
 
 a:hover {
     text-decoration: underline;
 }
 
+.category ul,
+.directory ul {
+    display: inline-flex;
+    white-space: nowrap;
+}
+
 .category {
     font-size: 0.8rem;
+}
+
+.category a {
+    color: #1E6BB8;
+}
+
+.category a:visited {
+    color: #1E6BB8;
 }
 
 .category #brand {
