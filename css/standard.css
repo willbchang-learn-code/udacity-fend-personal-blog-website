@@ -7,18 +7,34 @@ main {
     display: flex;
 }
 
-ul {
-    padding: 0;
-    list-style: none;
+article {
+    width: 60%;
+}
+
+h1, h2, h3 {
+    font-weight: 400;
 }
 
 h1 {
     font-size: 1.5rem;
-    font-weight: 400;
+    margin-top: 0;
+}
+
+h2 {
+    font-size: 1.2rem;
+}
+
+h3 {
+    font-size: 1rem;
 }
 
 p {
     font-size: 0.7rem;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
 }
 
 li {

@@ -1,6 +1,6 @@
 .blog-titles {
     width: 10rem;
-    height: calc(100vh - 4rem);
+    height: calc(100vh - 40px);
     font-size: 0.6rem;
     overflow-y: scroll;
     scrollbar-width: none; /* Firefox */
