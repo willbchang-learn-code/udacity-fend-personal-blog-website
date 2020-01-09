@@ -1,5 +1,5 @@
-.category,
-.directory {
+header ul,
+nav ul {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -7,45 +7,45 @@
     white-space: nowrap;
 }
 
-.category {
+header ul {
     font-size: 0.8rem;
 }
 
-.category a {
+header ul a {
     color: #1E6BB8;
 }
 
-.category a:visited {
+header ul a:visited {
     color: #1E6BB8;
 }
 
-.category #brand {
+header ul #brand {
     color: orange;
     background: url(../img/favicon-32x32.png) no-repeat left 50%;
     background-size: 0.8rem;
     padding-left: 1rem;
 }
 
-.directory {
+nav ul {
     height: 1.85rem;
     background: #F7F7F8;
     font-size: 0.6rem;
     font-weight: 400;
 }
 
-.directory a {
+nav ul a {
     color: #017A9B;
 }
 
 @media screen and (max-width: 600px) {
-    .category,
-    .directory {
+    header ul,
+    nav ul {
         align-items: initial;
         justify-content: initial;
     }
 
-    .category li,
-    .directory li {
+    header ul li,
+    nav ul li {
         margin: auto;
     }
 }
