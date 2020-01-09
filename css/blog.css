@@ -1,4 +1,4 @@
-.blog-titles {
+aside {
     width: 10rem;
     height: calc(100vh - 40px);
     font-size: 0.6rem;
@@ -6,28 +6,28 @@
     scrollbar-width: none; /* Firefox */
 }
 
-.blog-titles::-webkit-scrollbar {
+aside::-webkit-scrollbar {
     width: 0;
     height: 0;
 }
 
-.blog-titles a {
+aside a {
     border-left: 1px solid #ccc;
     color: #6D7780;
     display: block;
     padding: 0.4rem 0.5rem;
 }
 
-.blog-titles a:hover {
+aside a:hover {
     color: #2E3D49;
     border-left: 1px solid #2E3D49;
 }
 
-.blog-titles li:first-child a {
+aside li:first-child a {
     padding-top: 0;
 }
 
-.blog-titles li:last-child a {
+aside li:last-child a {
     padding-bottom: 0;
 }
 
