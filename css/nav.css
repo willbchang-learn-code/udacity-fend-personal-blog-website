@@ -1,6 +1,9 @@
-.category ul,
-.directory ul {
-    display: inline-flex;
+.category,
+.directory {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: scroll;
     white-space: nowrap;
 }
 
@@ -24,6 +27,7 @@
 }
 
 .directory {
+    height: 1.85rem;
     background: #F7F7F8;
     font-size: 0.6rem;
     font-weight: 400;

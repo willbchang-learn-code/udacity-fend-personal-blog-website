@@ -3,11 +3,6 @@ body {
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-nav {
-    text-align: center;
-    overflow: scroll;
-}
-
 ul {
     padding: 0;
     list-style: none;
