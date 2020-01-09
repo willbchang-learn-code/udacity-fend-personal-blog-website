@@ -1,39 +1,3 @@
-body {
-    margin: 0;
-    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-
-nav {
-    text-align: center;
-    overflow: scroll;
-}
-
-ul {
-    padding: 0;
-    list-style: none;
-}
-
-h1 {
-    font-size: 1.5rem;
-    font-weight: 400;
-}
-
-p {
-    font-size: 0.7rem;
-}
-
-li {
-    padding: 0 1rem;
-}
-
-a {
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
 .category ul,
 .directory ul {
     display: inline-flex;
