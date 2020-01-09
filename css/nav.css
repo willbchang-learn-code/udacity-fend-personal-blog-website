@@ -36,3 +36,16 @@
 .directory a {
     color: #017A9B;
 }
+
+@media screen and (max-width: 600px) {
+    .category,
+    .directory {
+        align-items: initial;
+        justify-content: initial;
+    }
+
+    .category li,
+    .directory li {
+        margin: auto;
+    }
+}
