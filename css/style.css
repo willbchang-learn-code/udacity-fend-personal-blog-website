@@ -56,15 +56,15 @@ header ul {
     font-size: 0.8rem;
 }
 
-header ul a {
+header a {
     color: #1E6BB8;
 }
 
-header ul a:visited {
+header a:visited {
     color: #1E6BB8;
 }
 
-header ul #brand {
+header a#brand {
     color: orange;
     background: url(../img/favicon-32x32.png) no-repeat left 50%;
     background-size: 0.8rem;
@@ -84,7 +84,7 @@ nav ul {
     font-weight: 400;
 }
 
-nav ul a {
+nav a {
     color: #017A9B;
 }
 
