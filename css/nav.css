@@ -26,6 +26,11 @@ header ul #brand {
     padding-left: 1rem;
 }
 
+nav {
+    position: sticky;
+    top: -1px;
+}
+
 nav ul {
     height: 1.85rem;
     background: #F7F7F8;

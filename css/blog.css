@@ -2,6 +2,8 @@ aside {
     width: 10rem;
     height: calc(100vh - 40px);
     font-size: 0.6rem;
+    position: sticky;
+    top: 2rem;
     overflow-y: scroll;
     scrollbar-width: none; /* Firefox */
 }
