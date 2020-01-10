@@ -1,5 +1,5 @@
 aside {
-    width: 10rem;
+    width: 20%;
     height: calc(100vh - 40px);
     font-size: 0.6rem;
     position: sticky;
@@ -41,4 +41,18 @@ aside li:last-child a {
 .blog-title-selected a:hover {
     color: #017A9B;
     border-left: 1px solid #017A9B;
+}
+
+.toc {
+    width: 20%;
+    font-size: 0.5rem;
+}
+
+.toc a {
+    padding: 0.2rem ;
+    border: 0;
+}
+
+.toc a:hover {
+    border: 0;
 }
