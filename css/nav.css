@@ -29,6 +29,7 @@ header ul #brand {
 nav {
     position: sticky;
     top: -1px;
+    z-index: 1;
 }
 
 nav ul {

@@ -4,6 +4,7 @@ aside {
     font-size: 0.6rem;
     position: sticky;
     top: 2rem;
+    bottom: 50px;
     overflow-y: scroll;
     scrollbar-width: none; /* Firefox */
 }
