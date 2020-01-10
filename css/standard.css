@@ -5,10 +5,12 @@ body {
 
 main {
     display: flex;
+    width: 95%;
+    margin: 0 auto;
 }
 
 article {
-    width: 60%;
+    width: 70%;
 }
 
 footer {
