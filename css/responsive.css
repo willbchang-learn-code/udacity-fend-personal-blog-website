@@ -1,0 +1,12 @@
+@media screen and (max-width: 600px) {
+    header ul,
+    nav ul {
+        align-items: initial;
+        justify-content: initial;
+    }
+
+    header ul li,
+    nav ul li {
+        margin: auto;
+    }
+}

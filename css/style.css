@@ -1,0 +1,173 @@
+/* || General Style Rules */
+body {
+    margin: 0;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1, h2, h3 {
+    font-weight: 400;
+    padding-top: 1.8rem;
+    margin-top: -1rem;
+}
+
+h1 {
+    font-size: 1.5rem;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+h2 {
+    font-size: 1.2rem;
+}
+
+h3 {
+    font-size: 1rem;
+}
+
+p {
+    font-size: 0.7rem;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+li {
+    padding: 0 1rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* || Header and Navigator */
+header ul,
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: scroll;
+    white-space: nowrap;
+}
+
+header ul {
+    font-size: 0.8rem;
+}
+
+header ul a {
+    color: #1E6BB8;
+}
+
+header ul a:visited {
+    color: #1E6BB8;
+}
+
+header ul #brand {
+    color: orange;
+    background: url(../img/favicon-32x32.png) no-repeat left 50%;
+    background-size: 0.8rem;
+    padding-left: 1rem;
+}
+
+nav {
+    position: sticky;
+    top: -1px;
+    z-index: 1;
+}
+
+nav ul {
+    height: 1.85rem;
+    background: #F7F7F8;
+    font-size: 0.6rem;
+    font-weight: 400;
+}
+
+nav ul a {
+    color: #017A9B;
+}
+
+/* || Main Content in website */
+main {
+    display: flex;
+    width: 95%;
+    margin: 0 auto;
+}
+
+article {
+    width: 70%;
+}
+
+/* || Aside: Titles of Blog Posts and Table of Contents */
+aside {
+    width: 20%;
+    height: calc(100vh - 40px);
+    font-size: 0.6rem;
+    position: sticky;
+    top: 2rem;
+    bottom: 50px;
+    overflow-y: scroll;
+    scrollbar-width: none; /* Firefox */
+}
+
+aside::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+aside a {
+    border-left: 1px solid #ccc;
+    color: #6D7780;
+    display: block;
+    padding: 0.4rem 0.5rem;
+}
+
+aside a:hover {
+    color: #2E3D49;
+    border-left: 1px solid #2E3D49;
+}
+
+aside li:first-child a {
+    padding-top: 0;
+}
+
+aside li:last-child a {
+    padding-bottom: 0;
+}
+
+.blog-title-selected a {
+    color: #017A9B;
+    font-weight: 700;
+}
+
+.blog-title-selected a:hover {
+    color: #017A9B;
+    border-left: 1px solid #017A9B;
+}
+
+.toc {
+    width: 20%;
+    font-size: 0.5rem;
+}
+
+.toc a {
+    padding: 0.2rem;
+    border: 0;
+}
+
+.toc a:hover {
+    border: 0;
+}
+
+/* || Footer */
+footer {
+    color: #6D7780;
+    font-size: 0.5rem;
+    padding: 0.5rem 0;
+    text-align: center;
+    background: #F9F9FA;
+}
