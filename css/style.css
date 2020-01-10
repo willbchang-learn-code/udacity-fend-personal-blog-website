@@ -6,14 +6,10 @@ body {
 
 h1, h2, h3 {
     font-weight: 400;
-    padding-top: 1.8rem;
-    margin-top: -1rem;
 }
 
 h1 {
     font-size: 1.5rem;
-    margin-top: 0;
-    padding-top: 0;
 }
 
 h2 {
@@ -33,10 +29,6 @@ ul {
     list-style: none;
 }
 
-li {
-    padding: 0 1rem;
-}
-
 a {
     text-decoration: none;
 }
@@ -53,6 +45,11 @@ nav ul {
     justify-content: center;
     overflow: scroll;
     white-space: nowrap;
+}
+
+header li,
+nav li {
+    padding: 0 1rem;
 }
 
 header ul {
@@ -98,10 +95,6 @@ main {
     margin: 0 auto;
 }
 
-article {
-    width: 70%;
-}
-
 /* || Aside: Titles of Blog Posts and Table of Contents */
 aside {
     width: 20%;
@@ -117,6 +110,10 @@ aside {
 aside::-webkit-scrollbar {
     width: 0;
     height: 0;
+}
+
+aside li {
+    padding: 0 1rem;
 }
 
 aside a {
@@ -161,6 +158,20 @@ aside li:last-child a {
 
 .toc a:hover {
     border: 0;
+}
+
+/* || Blog Post */
+article {
+    width: 70%;
+}
+
+article h1 {
+    margin-top: 0;
+}
+
+article h2 {
+    padding-top: 1.8rem;
+    margin-top: -1rem;
 }
 
 /* || Footer */
