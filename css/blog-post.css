@@ -7,7 +7,7 @@ main {
 
 /* || Aside: Titles of Blog Posts and Table of Contents */
 aside {
-    width: 20%;
+    width: calc(100% * 1 / 6);
     height: calc(100vh - 40px);
     font-size: 0.6rem;
     position: sticky;
@@ -57,7 +57,7 @@ aside li:last-child a {
 }
 
 .toc {
-    width: 20%;
+    width: calc(100% * 1 / 6);
     font-size: 0.5rem;
 }
 
@@ -72,7 +72,7 @@ aside li:last-child a {
 
 /* || Blog Post */
 article {
-    width: 70%;
+    width: calc(100% * 2 / 3);;
 }
 
 article h1 {
