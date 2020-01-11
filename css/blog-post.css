@@ -22,10 +22,6 @@ aside::-webkit-scrollbar {
     height: 0;
 }
 
-aside li {
-    padding: 0 1rem;
-}
-
 aside a {
     border-left: 1px solid #ccc;
     color: #6D7780;
@@ -62,7 +58,7 @@ aside li:last-child a {
 }
 
 .toc a {
-    padding: 0.2rem;
+    padding: 0.2rem 0.5rem;
     border: 0;
 }
 
