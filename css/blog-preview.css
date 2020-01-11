@@ -1,0 +1,44 @@
+main {
+    max-width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(10rem, 20rem));
+    grid-gap: 1rem;
+    justify-content: center;
+}
+
+section {
+    color: #11161A;
+    padding: 1rem;
+}
+
+section h4 {
+    margin-top: 0;
+}
+
+section h4 a:visited {
+    color: #11161A;
+}
+
+section h4 a:hover {
+    color: #1E6BB8;
+}
+
+section time {
+    color: #6D7780;
+    font-size: 0.5rem;
+    display: block;
+}
+
+section .keyword {
+    color: #6D7780;
+    font-size: 0.5rem;
+}
+
+section .keyword::after {
+    content: ',';
+}
+
+section .keyword:last-of-type::after {
+    content: '';
+}
