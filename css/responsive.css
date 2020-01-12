@@ -1,4 +1,4 @@
-@media screen and (max-width: 600px) {
+@media (max-width: 600px) {
     header ul,
     nav ul {
         align-items: initial;
@@ -8,5 +8,87 @@
     header ul li,
     nav ul li {
         margin: auto;
+    }
+}
+
+@media (max-width: 767px) {
+    .blog-titles,
+    .toc {
+        display: none;
+    }
+
+    article {
+        margin: 0 auto;
+    }
+
+    article p {
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 1rem;
+    }
+
+    h2 {
+        font-size: 0.9rem;
+    }
+
+    h3 {
+        font-size: 0.8rem;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    main {
+        width: 750px;
+    }
+
+    .blog-titles {
+        width: 0;
+        display: none;
+    }
+
+    article {
+        width: calc(100% * 3 / 4);
+    }
+
+    .toc {
+        width: calc(100% * 1 / 4);
+    }
+
+    h1 {
+        font-size: 1.1rem;
+    }
+
+    h2 {
+        font-size: 1rem;
+    }
+
+    h3 {
+        font-size: 0.9rem;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    main {
+        width: 970px;
+    }
+
+    h1 {
+        font-size: 1.2rem;
+    }
+
+    h2 {
+        font-size: 1.1rem;
+    }
+
+    h3 {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    main {
+        width: 1170px;
     }
 }
